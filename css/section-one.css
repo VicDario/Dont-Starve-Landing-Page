@@ -1,0 +1,46 @@
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url("../img/images/dont-starvemobilebg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-one img {
+    width: 80%;
+    max-width: 400px;
+    margin: 40px 0;
+}
+
+.section-one h3 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-one p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 5px;
+}
+
+.section-one a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px 40px;
+    border: 1px solid white;
+    margin: 30px 0;
+}
+
+.section-one a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+}
