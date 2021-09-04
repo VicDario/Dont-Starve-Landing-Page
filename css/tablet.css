@@ -3,3 +3,8 @@
         background-image: url("../img/images/background-tablet.jpg");
     }
 }
+@media screen and (min-width: 800px) {
+    .section-three p {
+        max-width: 800px;
+    }
+}
