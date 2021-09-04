@@ -4,6 +4,7 @@
 @import url("./section-three.css");
 @import url("./section-four.css");
 @import url("./footer.css");
+@import url("./gallery-media-query.css");
 
 :root {
     --font-title: 'Open Sans', sans-serif;
