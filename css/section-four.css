@@ -23,7 +23,11 @@
 
 .section-four p {
     font-size: 1.2rem;
-    line-height: 1.5;
-    margin: 20px 0;
+    line-height: 1.7rem;
+    margin: 10px 0;
     padding: 0 10px;
+}
+
+.section-four p strong {
+    color: #E4B16E;
 }
