@@ -24,10 +24,19 @@
     .section-two .section-two__gallery{
         height: 65vh;
     }
+    .section-two__gallery .carousel--arrows svg{
+        width: 40px;
+        height: 40px;
+    }
 }
 @media screen and (min-width: 1000px) {
     .section-two .section-two__gallery{
         height: 70vh;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .section-two .section-two__gallery{
+        height: 75vh;
     }
 }
 @media screen and (min-width: 1200px) {
