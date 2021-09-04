@@ -6,7 +6,9 @@
     width: 100%;
     flex: wrap;
 }
-
+.section-three h2 {
+    margin: 20px 0;
+}
 .section-three p {
     margin: 10px 0;
     line-height: 1.7rem;

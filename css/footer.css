@@ -12,6 +12,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    max-width: 500px;
 }
 
 .footer__container .footer__container--logo img {
