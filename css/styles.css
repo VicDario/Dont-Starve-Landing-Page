@@ -1,6 +1,11 @@
 @import url("./header.css");
 @import url("./section-one.css");
 @import url("./section-two.css");
+@import url("./section-four.css");
+:root {
+    --font-title: 'Open Sans', sans-serif;
+    --font-text: 'Roboto', sans-serif;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,8 +17,33 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-title);
     font-size: 1.2rem;
     color: white;
     background-color: #181716;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--font-title);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-family: var(--font-text);
+    font-size: 1.2rem;
 }
