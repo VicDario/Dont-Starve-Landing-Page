@@ -43,5 +43,12 @@
         background-position-x: -200px;
         background-position-y: -40px;
     }
+    .footer__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+    }
     
 }
