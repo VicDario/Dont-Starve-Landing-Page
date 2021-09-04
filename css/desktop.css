@@ -1,4 +1,30 @@
 @media screen and (min-width: 1000px) {
+    .hidden {
+        display: block;
+    }
+    .header .header__navbar .header__navbar--button {
+        display: none;
+    }
+    .header .header__navbar .header__navbar--list {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+    .header .header__navbar .header__navbar--list li {
+        margin: 0 20px;
+        text-align: center;
+    }
+    .header .header__navbar .header__navbar--list li:hover{
+        background-color: transparent;
+    }
+    .header .header__navbar .header__navbar--list li a {
+        padding: 0;
+    }
+    .header .header__navbar .header__navbar--list li a:hover{
+        text-shadow: 0px 0px 30px #ffffff;
+    }
     .section-one__first-background {
         background-image: url("../img/images/dont-starvebackground.jpg");
         background-position: center;
