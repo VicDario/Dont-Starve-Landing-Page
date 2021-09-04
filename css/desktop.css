@@ -43,6 +43,26 @@
         background-position-x: -200px;
         background-position-y: -40px;
     }
+
+    .section-three .section-three__about {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-three .section-three__about .section-three__about--text {
+        width: 50%;
+        text-align: end;
+    }
+    .section-three .section-three__about .section-three__about--text p {
+        padding: 15px 0;
+    }
+    .section-three .section-three__img {
+        width: 30%;
+    }
+    .section-three .section-three__img img {
+        height: auto;
+    }
     .footer__container {
         display: flex;
         flex-direction: row;
