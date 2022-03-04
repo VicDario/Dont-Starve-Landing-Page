@@ -11,7 +11,7 @@ menuButton.addEventListener('click', () => {
 });
 
 let carouselIndex = 0;
-const slideImage = () => {
+const changeImage = () => {
     let elements = document.querySelectorAll('.carousel-element');
     if (carouselIndex >= elements.length)   carouselIndex = 0;
     if (carouselIndex < 0)  carouselIndex = elements.length - 1;
@@ -24,7 +24,7 @@ const slideImage = () => {
 const createInterval = () => {
     return setInterval(() => {
             carouselIndex++;
-            slideImage();
+            changeImage();
         }, 5000);
 };
 
@@ -33,16 +33,16 @@ let sliderInterval = createInterval()
 let arrowPrevious = document.getElementById('arrow-previous');
 arrowPrevious.addEventListener('click', () => {
     carouselIndex--;
-    slideImage();
-    clearInterval(slideInterval);
+    changeImage();
+    clearInterval(sliderInterval);
     sliderInterval = createInterval();
 });
 
 let arrowNext = document.getElementById('arrow-next');
 arrowNext.addEventListener('click', () => {
     carouselIndex++;
-    slideImage();
-    clearInterval(slideInterval);
+    changeImage();
+    clearInterval(sliderInterval);
     sliderInterval = createInterval();
 });
 
