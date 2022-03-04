@@ -43,7 +43,17 @@
         background-position-x: -200px;
         background-position-y: -40px;
     }
-
+    .section-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-two .section-two__gallery{
+        width: 90%;
+        max-width: 1280px;
+        max-height: 720px;
+        box-shadow: 0px 0px 20px rgba(148, 148, 148, 0.5);
+    }
     .section-three .section-three__about {
         display: flex;
         flex-direction: row;
@@ -69,6 +79,5 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px 30px;
-    }
-    
+    }    
 }
