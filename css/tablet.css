@@ -2,7 +2,7 @@
     .section-one__third-background {
         background-image: url("../img/images/background-tablet.jpg");
     }
-    section-two__gallery .carousel--arrows svg {
+    .section-two__gallery .carousel--arrows svg {
         width: 30px;
         height: 30px;
     }

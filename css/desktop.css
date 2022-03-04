@@ -54,6 +54,15 @@
         max-height: 720px;
         box-shadow: 0px 0px 20px rgba(148, 148, 148, 0.5);
     }
+    .section-two__gallery .carousel--arrows svg{
+        width: 40px;
+        height: 40px;
+    }
+    .section-two__gallery .carousel--arrows svg:hover{
+        -moz-box-shadow: 0px 0px 30px #ffffff;
+        -webkit-box-shadow: 0px 0px 30px #ffffff;
+        box-shadow: 0px 0px 30px #ffffff;
+    }
     .section-three .section-three__about {
         display: flex;
         flex-direction: row;
@@ -79,5 +88,5 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px 30px;
-    }    
+    }
 }
